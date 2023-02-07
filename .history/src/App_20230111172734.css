@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+
+
+:root {
+  font-family: 'Oswald', sans-serif;
+  background-color: azure;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: azure;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+.preview {
+  width: 90%;
+  background-color: papayawhip;
+  border: solid grey 0.px;
+  border-bottom: 0;
+  min-height: 300px;
+
+}
+.markdown {
+  padding: 1rem;
+  font-family: 'Sofia Sans', sans-serif;
+}
+.div-form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+ display: block;
+}
+.preview-title {
+  width: auto;
+  background-color: wheat;
+  border: solid grey 1px;
+  border-bottom: 0.5px;
+  margin: 0;
+  padding: 4px;
+  font-size: large;
+  font-weight: bold;
+  color: #282c34;
+  
+}
+
+textarea {
+  background-color: papayawhip;
+  
+  border: solid grey 1px;
+}
+textarea, .preview, .preview-title {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 600px) {
+  .preview {
+  max-width: 600px;
+
+  }
+}

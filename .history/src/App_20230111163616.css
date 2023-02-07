@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: azure;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+.preview {
+  width: 80%;
+  background-color: papayawhip;
+  border-radius: 10px;
+  border: solid grey 2px;
+  color: grey;
+  height: auto;
+
+}
+.div-form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+ display: block;
+}
+.preview-title {
+  width: 98.2%;
+  background-color: wheat;
+  border-radius: 10px;
+  border: solid grey 2px;
+  margin: 0;
+  padding: 4px;
+  font-size: large;
+  font-weight: bold;
+  color: #282c34;
+  
+}
+
+textarea {
+  background-color: papayawhip;
+  border-radius: 10px;
+  border: solid grey 2px;
+}
+
+@media only screen and (minwidth: ) {
+  
+}
